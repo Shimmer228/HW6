@@ -1,0 +1,137 @@
+body{
+    margin: 0 auto;
+    font-family: Roboto;
+
+}
+.container{
+    margin-left: 80px;
+    width: 1280px;
+    height: 1100px;
+    justify-content: center;
+    
+}
+.Title{
+    font-size: 80px;
+    text-decoration: none;
+    color: #010101;
+}
+.highlighted-text{
+    color: #4BCAFF;
+}
+ header {
+    padding: 5px 0;
+    height: 69px;
+} 
+.main-menu-list{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    font-weight: normal;
+    margin-top: 0px;
+    background-color: #35444F;
+}
+.main-menu-list-item{
+    background-color: #35444F;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 400;
+}
+.menu-divider {
+    width: 1px; 
+    background-color: #fff; 
+    height: 70px;
+}
+.main-content {
+    display: flex;
+    margin-left: 20px;
+}
+.under-menu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    width: 344px;
+    height: 399px;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+.under-menu-item{
+    margin: 0;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #485863;
+    font-size: 27px;
+
+}
+
+.image {
+    max-width: 100%;
+    width: 885px;
+    height: 529px;
+}
+.main-text{
+    display: block;
+    float: right;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 885px;
+}
+.main-content-text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+footer {
+    background: rgba(99, 105, 110, 0.48);
+    padding: 20px 0;
+    color: #fff;
+    width: 1280px;
+    margin: 0px 0px 30px 80px;
+    height: 69px;
+    
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1280px; 
+    height: 69px;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    list-style: none; 
+    padding: 0; 
+    display: flex;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-menu li {
+    margin: 0; 
+    color: #3181A6;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #0C1927;
+    padding: 5px 10px; 
+}
+
+.copyright {
+    color: #010101;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
